@@ -71,7 +71,9 @@ body:after {
 .btn {
   font-size: 16px;
   border-radius: 30px;
-  padding: 10px 30px; }
+  padding: 10px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;}
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -215,7 +217,8 @@ body:after {
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
-    max-width: 100%; } }
+    max-width: 100%; } 
+  }
 
 @media (max-width: 991.98px) {
   .display-1, .display-3 {
